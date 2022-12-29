@@ -37,16 +37,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (子彈) {
-        if (子彈.isTouching(飛機)) {
-            子彈數 += 0
-        } else {
-            子彈數 += -1
-        }
-        if (子彈數 < 0) {
-            game.gameOver()
-        }
-    }
+	
 })
 basic.forever(function () {
     if (飛機.isTouching(主角)) {
